@@ -1,0 +1,22 @@
+# Xử lý dữ liệu cơ bản
+pandas
+numpy
+openpyxl
+
+# Machine Learning & Lựa chọn biến (Thay cho LASSO/BMA của R)
+scikit-learn
+xgboost
+
+# Kinh tế lượng (Thay cho PPML, FEM, REM trong R)
+statsmodels
+linearmodels
+
+# Không gian (Spatial - Thay cho SDM trong R)
+geopandas
+libpysal
+esda
+spreg
+
+# Vẽ biểu đồ
+matplotlib
+seaborn
