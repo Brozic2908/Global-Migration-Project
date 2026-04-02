@@ -13,7 +13,11 @@ C:.
 │   │       
 │   ├───processed
 │   │       data_clean.csv
+│   │       data_clean_pca.csv
 │   │       data_ppml.csv
+│   │       data_ppml_pca.csv
+│   │       pca_loadings.csv
+│   │       pca_variance_summary.csv
 │   │       
 │   └───raw
 │           data_raw.csv
@@ -27,14 +31,20 @@ C:.
 │   └───figures
 │           correlation_matrix_log.png
 │           migration_distribution.png
+│           pca_biplot_pc1_pc2.png
+│           pca_correlation_with_target.png
+│           pca_loading_heatmap.png
+│           pca_r2_sensitivity.png
+│           pca_score_distributions.png
+│           pca_scree_variance.png
 │           
 └───src
         01_reformat_raw.ipynb
         02_data_cleaning.ipynb
         03_pca_dimension_reduction.ipynb
-        04_feature_selection_bma_lasso.ipynb
-        05_econometric_base_models.ipynb
-        06_main_model_ppml.ipynb
+        04_fem_rem_hausman.ipynb
+        05_main_model_ppml.ipynb
+        06_lasso_bma.ipynb
         07_spatial_econometrics_sdm.ipynb
         08_machine_learning_models.ipynb
         09_model_evaluation_comparison.ipynb

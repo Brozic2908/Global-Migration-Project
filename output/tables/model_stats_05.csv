@@ -1,0 +1,8 @@
+Model,N,R2,R2_within,FE,Obs_type
+Pooled OLS,8308,0.5152,–,Year,migration>0
+FEM (Pair+Year FE),8308,–,0.0573,Pair+Year,migration>0
+REM,8308,0.2524,0.4046,Year,migration>0
+PPML-1 Core,14950,0.8291,–,Origin+Dest+Year,migration>=0
+PPML-2 Extended,14850,0.8294,–,Origin+Dest+Year,migration>=0
+PPML-3 No Year FE,14850,0.8293,–,Origin+Dest,migration>=0
+PPML-SUR,14850,0.949,–,Origin+Dest+Year,migration>=0
