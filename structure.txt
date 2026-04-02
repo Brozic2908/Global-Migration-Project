@@ -1,0 +1,24 @@
+Folder PATH listing for volume Windows
+Volume serial number is E019-B92A
+C:.
+│   .gitignore
+│   LICENSE
+│   README.md
+│   requirements.txt
+│   structure.txt
+│   
+├───data
+│   ├───interim
+│   │       data-off.xlsx
+│   │       
+│   └───raw
+│           data_raw.csv
+│           data_raw.xlsx
+│           
+├───doc
+│       A-Gravity-Model-Estimation-of-the-Bi-Directional-Relationship.pdf
+│       NCKH (Bản chính) _ Cô Uyển.docx
+│       
+└───src
+        01_reformat_raw.ipynb
+        
