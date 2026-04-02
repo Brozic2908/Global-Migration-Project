@@ -1,0 +1,33 @@
+                        RandomEffects Estimation Summary                        
+================================================================================
+Dep. Variable:           ln_migration   R-squared:                        0.3722
+Estimator:              RandomEffects   R-squared (Between):              0.1643
+No. Observations:                8360   R-squared (Within):               0.3836
+Date:                Fri, Apr 03 2026   R-squared (Overall):              0.1709
+Time:                        04:19:23   Log-likelihood                   -1991.3
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      618.90
+Entities:                         364   P-value                           0.0000
+Avg Obs:                       22.967   Distribution:                  F(8,8351)
+Min Obs:                       11.000                                           
+Max Obs:                       23.000   F-statistic (robust):             45.478
+                                        P-value                           0.0000
+Time periods:                      23   Distribution:                  F(8,8351)
+Avg Obs:                       363.48                                           
+Min Obs:                       363.00                                           
+Max Obs:                       364.00                                           
+                                                                                
+                              Parameter Estimates                               
+================================================================================
+              Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------
+const           -3.2830     2.3807    -1.3790     0.1679     -7.9498      1.3839
+ln_gdppc_org     0.6031     0.0710     8.4970     0.0000      0.4639      0.7422
+ln_gdppc_des     0.0297     0.0760     0.3908     0.6959     -0.1193      0.1787
+ln_pop_org       0.2147     0.1350     1.5907     0.1117     -0.0499      0.4792
+ln_pop_des       0.1091     0.0954     1.1428     0.2532     -0.0780      0.2961
+ln_dist          0.0216     0.1123     0.1926     0.8473     -0.1984      0.2417
+comlang_off      1.1701     0.3087     3.7906     0.0002      0.5650      1.7751
+contig           1.5670     0.3741     4.1893     0.0000      0.8338      2.3003
+colony           1.4438     0.7063     2.0441     0.0410      0.0593      2.8283
+================================================================================
