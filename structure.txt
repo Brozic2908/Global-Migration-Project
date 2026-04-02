@@ -11,6 +11,10 @@ C:.
 │   ├───interim
 │   │       data-off.xlsx
 │   │       
+│   ├───processed
+│   │       data_clean.csv
+│   │       data_ppml.csv
+│   │       
 │   └───raw
 │           data_raw.csv
 │           data_raw.xlsx
@@ -19,6 +23,19 @@ C:.
 │       A-Gravity-Model-Estimation-of-the-Bi-Directional-Relationship.pdf
 │       NCKH (Bản chính) _ Cô Uyển.docx
 │       
+├───output
+│   └───figures
+│           correlation_matrix_log.png
+│           migration_distribution.png
+│           
 └───src
         01_reformat_raw.ipynb
+        02_data_cleaning.ipynb
+        03_pca_dimension_reduction.ipynb
+        04_feature_selection_bma_lasso.ipynb
+        05_econometric_base_models.ipynb
+        06_main_model_ppml.ipynb
+        07_spatial_econometrics_sdm.ipynb
+        08_machine_learning_models.ipynb
+        09_model_evaluation_comparison.ipynb
         
