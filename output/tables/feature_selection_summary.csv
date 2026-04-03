@@ -1,14 +1,14 @@
-variable,PIP,BMA,LASSO,LASSO_coef,ElasticNet,Đồng thuận,Quyết định
-ln_gdppc_org,1.0,★★★,✓,-0.3317,✓,3,✅ GIỮ
-ln_gdppc_des,1.0,★★★,✓,0.9767,✓,3,✅ GIỮ
-ln_pop_org,1.0,★★★,✓,0.7316,✓,3,✅ GIỮ
-ln_pop_des,1.0,★★★,✓,0.7781,✓,3,✅ GIỮ
-ln_dist,1.0,★★★,✓,-0.3853,✓,3,✅ GIỮ
-comlang_off,1.0,★★★,✓,0.3947,✓,3,✅ GIỮ
-contig,1.0,★★★,✓,0.4117,✓,3,✅ GIỮ
-colony,1.0,★★★,✓,0.1749,✓,3,✅ GIỮ
-ln_co2_org,1.0,★★★,✓,0.3731,✓,3,✅ GIỮ
-ln_disaster_des,1.0,★★★,✓,0.3712,✓,3,✅ GIỮ
-ln_disaster_org,0.0438,–,✓,0.0534,✓,2,✅ GIỮ
-inflation_org,0.0306,–,✓,0.0302,✓,2,✅ GIỮ
-inflation_des,0.0116,–,✓,-0.0139,✓,2,✅ GIỮ
+variable,PIP,BMA,LASSO,LASSO_coef,score_bma,score_lasso,Đồng thuận,Quyết định
+ln_gdppc_org,1.0,★★★,✓,-0.3317,1,1,2,✅ GIỮ
+ln_gdppc_des,1.0,★★★,✓,0.9767,1,1,2,✅ GIỮ
+ln_pop_org,1.0,★★★,✓,0.7316,1,1,2,✅ GIỮ
+ln_pop_des,1.0,★★★,✓,0.7781,1,1,2,✅ GIỮ
+ln_dist,1.0,★★★,✓,-0.3853,1,1,2,✅ GIỮ
+comlang_off,1.0,★★★,✓,0.3947,1,1,2,✅ GIỮ
+contig,1.0,★★★,✓,0.4117,1,1,2,✅ GIỮ
+colony,1.0,★★★,✓,0.1749,1,1,2,✅ GIỮ
+ln_co2_org,1.0,★★★,✓,0.3731,1,1,2,✅ GIỮ
+ln_disaster_des,1.0,★★★,✓,0.3712,1,1,2,✅ GIỮ
+ln_disaster_org,0.0438,–,✓,0.0534,0,1,1,⚠️ XEM XÉT
+inflation_org,0.0306,–,✓,0.0302,0,1,1,⚠️ XEM XÉT
+inflation_des,0.0116,–,✓,-0.0139,0,1,1,⚠️ XEM XÉT
