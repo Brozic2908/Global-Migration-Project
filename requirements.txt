@@ -6,6 +6,7 @@ openpyxl
 # Machine Learning & Lựa chọn biến (Thay cho LASSO/BMA của R)
 scikit-learn
 xgboost
+lightgbm
 
 # Kinh tế lượng (Thay cho PPML, FEM, REM trong R)
 statsmodels
