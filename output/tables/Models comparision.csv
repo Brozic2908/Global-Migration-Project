@@ -1,0 +1,8 @@
+Model,Type,R_squared,RMSE,Main_Features
+Fixed Effects (FEM),Econometrics,0.461,,Gravity Vars + FE
+Random Effects (REM),Econometrics,0.1709,,Gravity Vars + RE
+PPML,Econometrics,0.8294,,Gravity Vars
+Spatial Econ (SLX),Econometrics,0.5715,,13 Vars + 9 Lags
+Random Forest,Machine Learning,0.8089,0.9301,6 Principal Comps
+XGBoost,Machine Learning,0.7989,0.954,6 Principal Comps
+LightGBM,Machine Learning,0.8064,0.9361,6 Principal Comps
