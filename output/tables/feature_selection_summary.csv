@@ -9,6 +9,6 @@ contig,1.0,★★★,✓,0.4117,✓,3,✅ GIỮ
 colony,1.0,★★★,✓,0.1749,✓,3,✅ GIỮ
 ln_co2_org,1.0,★★★,✓,0.3731,✓,3,✅ GIỮ
 ln_disaster_des,1.0,★★★,✓,0.3712,✓,3,✅ GIỮ
-ln_disaster_org,0.0438,–,✓,0.0534,✓,2,✅ GIỮ
-inflation_org,0.0306,–,✓,0.0302,✓,2,✅ GIỮ
-inflation_des,0.0116,–,✓,-0.0139,✓,2,✅ GIỮ
+ln_disaster_org,0.0438,–,✓,0.0534,✓,2,❌ LOẠI
+inflation_org,0.0306,–,✓,0.0302,✓,2,❌ LOẠI
+inflation_des,0.0116,–,✓,-0.0139,✓,2,❌ LOẠI
